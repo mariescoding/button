@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 class ViewController: UIViewController {
     
@@ -18,10 +19,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         circleButton.layer.cornerRadius = 20
-        circleButton2.layer.shadowColor = CGColor(red: 0.8, green: 0.3, blue: 0.5, alpha: 1)
-        circleButton3.layer.borderColor = CGColor(red: 0.2, green: 0.8, blue: 0.2, alpha: 1)
+        circleButton2.layer.shadowColor = CGColor(gray: 0.8, alpha: 1)
+        circleButton3.layer.cornerRadius = 35
+        circleButton3.layer.borderWidth = 2
+        circleButton3.layer.borderColor = CGColor(red: 0.8, green: 0.2, blue: 0.5, alpha: 1)
         circleButton4.layer.cornerRadius = 50
-        circleButton4.layer.borderColor = CGColor(red: 0.2, green: 0.8, blue: 0.2, alpha: 1)
+        circleButton4.layer.borderColor = CGColor(gray: 0.8, alpha: 1)
         
          
     }
